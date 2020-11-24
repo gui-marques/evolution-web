@@ -150,36 +150,8 @@ export default function NestedList() {
             <ListItemText primary="Categorias" />
           </ListItem>
         </List>
-      </Collapse>
 
-        {/*
-      // Adicionar no painel lateral, itens
-        <ListItem button>
-          <ListItemIcon>
-            <DraftsIcon />
-          </ListItemIcon>
-          <ListItemText primary="Drafts" />
-        </ListItem> */}
-      {/* Aqui começa o upload para nuvem
-<ListItem button onClick={SegundoClick}>
-        <ListItemIcon>
-          <CloudIcon />
-        </ListItemIcon>
-        <ListItemText primary="Arquivos" />
-        {open2 ? <ExpandLess /> : <ExpandMore />}
-      </ListItem>
-      <Collapse in={open2} timeout="auto" unmountOnExit>
-        <List component="div" disablePadding>
-          <ListItem button className={classes.nested} component={Link} to='/relatorio'>
-            <ListItemIcon>
-              < PrintIcon />
-            </ListItemIcon>
-            <ListItemText primary="Impressoras" />
-          </ListItem>
-        </List>
-      </Collapse>
- */}
-     <ListItem button onClick={SegundoClick}>
+        <ListItem button onClick={SegundoClick}>
         <ListItemIcon>
           <SupervisedUserCircleIcon style={{ color: '#fff' }}/>
         </ListItemIcon>
@@ -209,6 +181,37 @@ export default function NestedList() {
           </ListItem>
         </List>
       </Collapse>
+
+      </Collapse>
+
+        {/*
+      // Adicionar no painel lateral, itens
+        <ListItem button>
+          <ListItemIcon>
+            <DraftsIcon />
+          </ListItemIcon>
+          <ListItemText primary="Drafts" />
+        </ListItem> */}
+      {/* Aqui começa o upload para nuvem
+<ListItem button onClick={SegundoClick}>
+        <ListItemIcon>
+          <CloudIcon />
+        </ListItemIcon>
+        <ListItemText primary="Arquivos" />
+        {open2 ? <ExpandLess /> : <ExpandMore />}
+      </ListItem>
+      <Collapse in={open2} timeout="auto" unmountOnExit>
+        <List component="div" disablePadding>
+          <ListItem button className={classes.nested} component={Link} to='/relatorio'>
+            <ListItemIcon>
+              < PrintIcon />
+            </ListItemIcon>
+            <ListItemText primary="Impressoras" />
+          </ListItem>
+        </List>
+      </Collapse>
+ */}
+
 
 
 {/* Seção Relatorios */}
