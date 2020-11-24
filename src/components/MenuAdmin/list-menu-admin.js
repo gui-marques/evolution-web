@@ -175,7 +175,7 @@ export default function NestedList() {
         <List component="div" disablePadding>
           <ListItem button className={classes.nested} component='a' href='/usuarios/lista'>
             <ListItemIcon>
-              < GroupIcon style={{ color: '#fff' }}/>
+              < GroupIcon style={{ color: '#ffff' }}/>
             </ListItemIcon>
             <ListItemText primary="Lista de Usuarios" />
           </ListItem>
